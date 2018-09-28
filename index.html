@@ -1,7 +1,103 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Gaben.club</h1>
-<p>Currently transfering hosts</p>
-</body>
+	<head>
+		<title>Gaben - Home</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="main.css"/>
+		<link rel="stylesheet" href="styles.css" type="text/css"/>
+		<link rel="stylesheet" href="css/player.css">
+   </head>
+		<style>
+		body,html {
+			background-color: #6b6c6d;
+			height: 100%;
+		}
+
+		.bg {
+				/* The image used */
+				background-image: url(images/Gabe_Newell.jpg);
+
+				/* Full height */
+				height: 100%;
+
+				/* Center and scale the image nicely */
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+		}
+		</style>
+		<script src="js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.jplayer.js"></script>
+		<script type="text/javascript" src="js/jplayer.cleanskin.min.js"></script>
+		<script type="text/javascript">
+          $(document).ready(function(){
+              $(document).find('.webPlayer').each(function() { $('#'+this.id).videoPlayer(); });
+          });
+    </script>
+	</head>
+	<ul>
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="music.html">Music</a></li>
+		<li><a href="videos.html">Videos</a></li>
+		<li><a href="gabesmas.html">Gabesmas</a></li>
+		<li><a href="sales.html">Sales</a></li>
+		<li><a href="about.html">About</a></li>
+	</ul>
+<div class="bg">
+	<h1 class="center">
+		<center>
+			<font color="#ffffff"><u>Your Home For All Things Gaben</u></center>
+	</h1>
+</div>
+<div id="music">
+	<h1><center><u>Most Popular Music</u></center><h1>
+	<center>
+	<body>
+	<div id="uniquePlayer-1" class="webPlayer light audioPlayer">
+							<div id="uniqueContainer-1" class="videoPlayer"></div>
+							<div style="display:none;" class="playerData">
+									{
+									"name": "Stop a Gaben",
+											"size": {
+													"width": "750px"
+											},
+											"media": {
+													"mp3": "music\/Stop a Gaben.mp3"
+											}
+									}
+							</div>
+					</div>
+		<br>
+		<div id="uniquePlayer-2" class="webPlayer light audioPlayer">
+										<div id="uniqueContainer-2" class="videoPlayer"></div>
+										<div style="display:none;" class="playerData">
+												{
+												"name": "It's Gabe-ing Ben",
+														"size": {
+																"width": "750px"
+														},
+														"media": {
+																"mp3": "music\/Its Gabe-ing Ben.mp3"
+														}
+												}
+						</div>
+			</div>
+		</br>
+			<div id="uniquePlayer-3" class="webPlayer light audioPlayer">
+									<div id="uniqueContainer-3" class="videoPlayer"></div>
+									<div style="display:none;" class="playerData">
+											{
+											"name": "Gabes Watching",
+													"size": {
+															"width": "750px"
+													},
+													"media": {
+															"mp3": "music\/Gabes Watching.mp3"
+													}
+											}
+									</div>
+							</div>
+	</body>
+</center>
+</div>
 </html>
