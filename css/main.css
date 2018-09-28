@@ -3,17 +3,19 @@
     src: url(fonts/Oswald-Regular.ttf);
 }
 
+html {
+    font-family: 'Oswald';
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: Oswald;
 }
 
 li {
-	  list-style-type: none;
+    list-style-type: none;
     float: left;
-    font-family: Oswald;
 }
 
 li a {
@@ -22,25 +24,23 @@ li a {
     text-align: center;
     padding: 14px;
     text-decoration: none;
-    font-family: Oswald;
 }
 
 li a:hover {
     background-color: #111;;
-    font-family: Oswald;
-		color: white;
+    color: white;
 }
 
 header{
-	width: 100%;
-	background-color: ##535559;
+    width: 100%;
+    background-color: ##535559;
 }
 
 #logo{
-	width: 72px;
-	padding: 4px;
-	border: 2px solid white;
-	float: left;
+    width: 72px;
+    padding: 4px;
+    border: 2px solid white;
+    float: left;
 }
 .center {
     margin: auto;
