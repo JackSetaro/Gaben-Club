@@ -1,40 +1,56 @@
 @font-face {
-    font-family: 'Oswald';
-    src: url(../fonts/Oswald-Regular.ttf);
+    font-family: 'Manrope';
+    src: url(../fonts/bold.ttf);
 }
 
 html {
-    font-family: 'Oswald';
+    font-family: 'Manrope';
+    background-color: #1D2024;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.video-left{
+  margin-left: 13%;
+  margin-top: 3%;
 }
 
-li {
-    list-style-type: none;
-    float: left;
+.video-right{
+  margin-right: 13%;
+  margin-top: 3%;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
+.h1t {
+  font-family: 'Manrope';
+  font-size: 160px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#152741, #2186FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-li a:hover {
-    background-color: #111;;
-    color: white;
+.h2t {
+  font-family: 'Manrope';
+  font-size: 30px;
+  font-weight: bolder;
+  color: #2186FF;
 }
 
-header{
-    width: 100%;
-    background-color: ##535559;
+#main-image{
+  float: left;
+  margin-left: 40%;
+  margin-top: 2%;
 }
+
+#main-text1{
+  float: left;
+  margin-left: 41%;
+  margin-top: 2%;
+}
+#main-text2{
+  float: left;
+  margin-left: 36.2%;
+  margin-top: 2%;
+}
+
 
 #logo{
     width: 72px;
@@ -50,17 +66,41 @@ header{
     top: 450px;
 }
 
-body {
-	margin: 0;
-  height: 100%;
-  background-color: #535559;
-}
-
 .active {
     color: black;
 		text-decoration: underline;
 }
 
-.music{
-	background-color: #535559;
+/* On Chrome */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.stop-damn-scrolling{
+  overflow-y: hidden;
+}
+
+.page-text{
+  background-color: #1D2024;
+  position: relative;
+  padding: 0px;
+  margin: auto;
+  color: #2186FF;
+  position: relative;
+  padding: 10px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.page-title{
+  background-color: #1D2024;
+  position: relative;
+  padding: 0px;
+  margin: auto;
+  color: #2a60ad;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  padding: 10px;
+  padding-top: 30px;
 }
